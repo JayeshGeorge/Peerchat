@@ -194,7 +194,7 @@ let toggleMic = async () => {
     document.getElementById("mic-btn").style.backgroundColor = "rgb(255,80,80)";
 
     let img = document.getElementById("img-mic");
-    img.src = "/icons/mute.png";
+    img.src = "mute.png";
   } else {
     AudioTrack.enabled = true;
     document.getElementById("mic-btn").style.backgroundColor =
