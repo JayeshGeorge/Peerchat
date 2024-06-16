@@ -200,7 +200,7 @@ let toggleMic = async () => {
     document.getElementById("mic-btn").style.backgroundColor =
       "rgb(255, 235, 205)";
     let img = document.getElementById("img-mic");
-    img.src = "/icons/mic.png";
+    img.src = "mic.png";
   }
 };
 
